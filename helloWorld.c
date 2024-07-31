@@ -90,11 +90,18 @@ int main(){
         // int a = 10;
         // a++;
         // printf("%d", a);
-        int a = 10;
-        int b =20;
+        // int a = 10;
+        // int b =20;
         
-        a--;
-        printf("%d\n", a);
+        // a--;
+        // printf("%d\n", a);
+
+        // int a = 10;
+        // int b = a--;
+        // printf("%d\n", a);
+        // printf("%d", b);
+
+        
        
 
 
