@@ -1,8 +1,9 @@
-#include<stdio.h>
-#include<math.h>
-int main(){
+#include <stdio.h>
+#include <math.h>
+int main()
+{
 
-// 1. WAP in c to add two number and display the result
+    // 1. WAP in c to add two number and display the result
 
     // int a,b,result;
     // printf("Enter The First Integer Number : ");
@@ -66,13 +67,13 @@ int main(){
     // printf("Current temparature in farenheit : %f", c);
 
     // 8. WAP in c enter two number and find out the power value
-// float x,y,z;
-//     printf("Enter the X value : \n");
-//     scanf("%f", &x);
-//      printf("Enter the Y value : \n");
-//     scanf("%f", &y);
-//     z = pow(x,y);
-//     printf("result : %f", z);
+    // float x,y,z;
+    //     printf("Enter the X value : \n");
+    //     scanf("%f", &x);
+    //      printf("Enter the Y value : \n");
+    //     scanf("%f", &y);
+    //     z = pow(x,y);
+    //     printf("result : %f", z);
 
     // 7. WAP in c to enter any number by user and find out the square root value
 
@@ -92,7 +93,7 @@ int main(){
     // angle3 = 180 - (angle1 + angle2);
     // printf("answer : %d", angle3);
 
-    // 9. WAP in c to calculate area of a Equilateral Triangle 
+    // 9. WAP in c to calculate area of a Equilateral Triangle
 
     // float s,r;
     // printf("Enter the value of s : ");
@@ -102,7 +103,6 @@ int main(){
 
     // 10. WAP in c to enter marks in 5 subject and calculate total, avarage and percentage
 
-    
     // int bengali, english, math, history, geography, result;
     // float average, percentage;
 
@@ -125,9 +125,9 @@ int main(){
     // average = result / 5.0;  // Ensure floating-point division
     // percentage = (result / 500.0) * 100;
 
-    // printf("The total number of 5 subjects is: %d \n", result); 
-    // printf("The average of 5 subjects is: %.2f \n", average); 
-    // printf("The percentage of 5 subjects is: %.2f \n", percentage); 
+    // printf("The total number of 5 subjects is: %d \n", result);
+    // printf("The average of 5 subjects is: %.2f \n", average);
+    // printf("The percentage of 5 subjects is: %.2f \n", percentage);
 
     // 11. WAP in c to enter P , T, R and calculate compound interest
 
@@ -144,47 +144,81 @@ int main(){
 
     // 12. WAP in c compound intrest
 
-// float p, t, r, ci;
-//     printf("Enter the principle amount : ");
-//     scanf("%f", &p);
-//     printf("Enter the Time  : ");
-//     scanf("%f", &t);
-//     printf("Enter the Rate of interest : ");
-//     scanf("%f", &r);
-//     ci = p* (pow(1+(r/100),t));
-//     printf("C.I = %f\n", ci);
-//     printf("total amount with interest : %f", (ci+p) );
+    // float p, t, r, ci;
+    //     printf("Enter the principle amount : ");
+    //     scanf("%f", &p);
+    //     printf("Enter the Time  : ");
+    //     scanf("%f", &t);
+    //     printf("Enter the Rate of interest : ");
+    //     scanf("%f", &r);
+    //     ci = p* (pow(1+(r/100),t));
+    //     printf("C.I = %f\n", ci);
+    //     printf("total amount with interest : %f", (ci+p) );
 
-// 13. wap in c to calculate the area of triangle by using heron's formula
+    // 13. wap in c to calculate the area of triangle by using heron's formula
 
-// int a,b,c,s,area;
-// printf("Enter value of a : \n");
-// scanf("%d", &a);
-// printf("Enter value of b : \n");
-// scanf("%d", &b);
-// printf("Enter value of c : \n");
-// scanf("%d", &c);
-// s=(a+b+c)/2;
-// area = sqrt(s* (s-a)* (s-b)* (s-c));
-// printf("area of triangle : %d", area);
+    // int a,b,c,s,area;
+    // printf("Enter value of a : \n");
+    // scanf("%d", &a);
+    // printf("Enter value of b : \n");
+    // scanf("%d", &b);
+    // printf("Enter value of c : \n");
+    // scanf("%d", &c);
+    // s=(a+b+c)/2;
+    // area = sqrt(s* (s-a)* (s-b)* (s-c));
+    // printf("area of triangle : %d", area);
 
-// 14. 
+    // 14.
 
-// int day ,year, month, week, total;
-// printf("Enter the Days as a integer : ");
-// scanf("%d" , &day);
-// year = day/365;
-// month = day / 30;
-// week =day/7;
-// printf("Number of year : %d\n", year);
-// printf("Number of Month : %d\n", month);
-// printf("Number of Week : %d", week);
+    // int day ,year, month, week, total;
+    // printf("Enter the Days as a integer : ");
+    // scanf("%d" , &day);
+    // year = day/365;
+    // month = day / 30;
+    // week =day/7;
+    // printf("Number of year : %d\n", year);
+    // printf("Number of Month : %d\n", month);
+    // printf("Number of Week : %d", week);
 
+    //  1st problem statement.........
 
+    // double length, width, a,b,c, rectangulararea, trianglearea, totalarea, s;
+    // printf("Enter length rectangle area : ");
+    // scanf("%lf" , &length);
+    // printf("Enter width rectangle area : ");
+    // scanf("%lf" , &width);
+    // rectangulararea = (length*width);
+    // printf("Enter the side of a of triangle area : \n");
+    // scanf("%lf", &a);
+    // printf("Enter the side of b of triangle area : \n");
+    // scanf("%lf", &b);
+    // printf("Enter the side of c of triangle area : \n");
+    // scanf("%lf", &c);
+    // s=(a+b+c)/2;
+    // trianglearea = sqrt(s*(s-a)*(s-b)*(s-c));
 
+    // totalarea = rectangulararea + trianglearea;
 
+    // printf("the total area of makaut is : %lf", totalarea);
+
+    //  2nd problem statement.............
+
+    // int annualIncome, basicMonthlyIncome, incomrTax, ta, da, pf;
+
+    // printf("Enter the Annual Income : \n");
+    // scanf("%d", &annualIncome);
+    // basicMonthlyIncome = (annualIncome / 12);
+    // incomrTax = (annualIncome * 0.15);
+    // ta = (basicMonthlyIncome * 0.1);
+    // da = (basicMonthlyIncome * 0.1);
+    
+    //     printf("Monthly income : %d\n", basicMonthlyIncome);
+    // printf("Income tax: %d\n", incomrTax);
+    // printf("TA : %d\n", ta);
+    // printf("DA : %d\n", da);
+    
+
+    
 
     return 0;
 }
-
-
