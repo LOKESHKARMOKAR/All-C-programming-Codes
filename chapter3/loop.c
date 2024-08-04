@@ -64,7 +64,11 @@ int main(){
 // }
 // printf("the reverse number is : %d" , r);
 
-        // 2. number palindrom or not...............
+                //  Pattern Printing
+                
+
+
+
 
 
 
