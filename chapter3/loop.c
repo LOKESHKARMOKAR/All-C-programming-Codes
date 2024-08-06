@@ -89,15 +89,18 @@ int main(){
 //         }
 //         printf("\n");
 
-int a = 5;
-int b = 10;
+int a;
+int b;
+int c;
 int sum;
 printf("enter a number\n");
 scanf("%d", &a);
 printf("enter b number\n");
 scanf("%d", &b);
-sum = a+b;
-printf("sum of %d and %d = %d", a,b,sum);
+printf("enter c number\n");
+scanf("%d", &c);
+sum = a+b+c;
+printf("sum of %d and %d  and %d = %d", a,b,c,sum);
 
 
 
