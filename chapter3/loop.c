@@ -91,7 +91,7 @@ int main(){
 
 int a;
 int b;
-int c,d;
+int c,d,e;
 int sum;
 printf("enter a number\n");
 scanf("%d", &a);
@@ -101,8 +101,10 @@ printf("enter c number\n");
 scanf("%d", &c);
 printf("enter d number\n");
 scanf("%d", &d);
-sum = a+b+c+d;
-printf("sum of %d and %d  and %d and %d = %d", a,b,c,d,sum);
+printf("enter e number\n");
+scanf("%d", &e);
+sum = a+b+c+d+e;
+printf("sum of %d and %d  and %d and %d and %d = %d", a,b,c,d,e,sum);
 
 
 
