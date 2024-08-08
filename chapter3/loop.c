@@ -105,7 +105,7 @@ printf("enter e number\n");
 scanf("%d", &e);
 sum = a+b+c+d+e;
 printf("sum of %d and %d  and %d and %d and %d = %d", a,b,c,d,e,sum);
-
+printf("hello ");
 
 
 
