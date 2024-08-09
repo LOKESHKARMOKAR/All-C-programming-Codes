@@ -89,27 +89,83 @@ int main(){
 //         }
 //         printf("\n");
 
-int a;
-int b;
-int c,d,e;
-int sum;
-printf("enter a number\n");
-scanf("%d", &a);
-printf("enter b number\n");
-scanf("%d", &b);
-printf("enter c number\n");
-scanf("%d", &c);
-printf("enter d number\n");
-scanf("%d", &d);
-printf("enter e number\n");
-scanf("%d", &e);
-sum = a+b+c+d+e;
-printf("sum of %d and %d  and %d and %d and %d = %d", a,b,c,d,e,sum);
-printf("hello ");
-printf("hello world");
+// int a;
+// int b;
+// int c,d,e;
+// int sum;
+// printf("enter a number\n");
+// scanf("%d", &a);
+// printf("enter b number\n");
+// scanf("%d", &b);
+// printf("enter c number\n");
+// scanf("%d", &c);
+// printf("enter d number\n");
+// scanf("%d", &d);
+// printf("enter e number\n");
+// scanf("%d", &e);
+// sum = a+b+c+d+e;
+// printf("sum of %d and %d  and %d and %d and %d = %d", a,b,c,d,e,sum);
+// printf("hello ");
+// printf("hello world");
+
+                //  seriese printing
+
+// int i, n , sum=0;
+// printf("Enter the value od n\n");
+// scanf("%d", &n);
+
+// for(i=1;i<=n;i++){
+//         if(i==n){
+//                 printf("%d\n", i);
+//         }else{
+//                 printf("%d+ ",i);
+//         }
+//         sum=sum+i;
+// }
+// printf("the sum is the %d", sum);
 
 
 
+// int i, n , sum=0;
+// printf("Enter the value od n\n");
+// scanf("%d", &n);
+
+// for(i=1;i<=n;i++){
+//         if(i==n){
+//                 printf("%d ^2", i);
+//         }else{
+//                 printf("%d ^2 +", i);
+//         }
+//         sum=sum+i*i;
+// }
+// printf("the sum is the %d", sum);
+
+
+
+// int i, n ;
+// float sum=0.0;
+// printf("Enter the value od n\n");
+// scanf("%d", &n);
+
+// for(i=1;i<=n;i++){
+//         if(i==n){
+//                 printf("%d ^2", i);
+//         }else{
+//                 printf("%d ^2 +", i);
+//         }
+//         sum=sum+ (1.0/1);
+// }
+// printf("the sum is the %f", sum);
+
+
+int i, n, a,d;
+a=1;
+d=2;
+int sum=0;
+printf("Enter the number of terms : \n");
+scanf("%d", &n);
+sum=((n/2)*(2*a+(n-1)*d));
+printf("nuber of terms is %d ", sum);
 
 
 
