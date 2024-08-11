@@ -8,9 +8,9 @@ int main(){
     // printf("%d",&b);
     // printf("%d", &a);
     // return 0;
-    for(;;){
-        printf("**");
+    // for(;;){
+    //     printf("**");
         
-    }
+    // }
 return 0;
 }
