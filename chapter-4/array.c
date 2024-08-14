@@ -16,8 +16,9 @@ int main(){
     int b = 20;
     int c = 30;
     int d = 40;
+    int e = 50;
     int sum;
-    sum = a+b+c+d;
+    sum = a+b+c+d+e;
     printf("%d", sum);
 return 0;
 }
