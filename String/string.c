@@ -22,10 +22,64 @@ int main(){
 
     //************GETS ,  PUTS ****************** 
 
-    char name[100];
-    puts("Enter your name : ");
-    gets(name);
-    printf("Name = %s", name);
-    printf("%s", name);
+    // char name[100];
+    // puts("Enter your name : ");
+    // gets(name);
+    // printf("Name = %s", name);
+    // printf("%s", name);
+
+    // char str[100] = "India";
+    // printf("%d", strlen(str));
+
+
+    //********* WAP in c to check the input is palendrom or not ************
+
+    // char str[100];
+    // int i, len;
+    // int flag=0;
+
+    // printf("Enter a string ");
+    // gets(str);
+
+    // len=strlen(str);
+
+    // for(i=0; i<len; i++){
+    //     if(str[i] != str[len-i-1])
+    //     {
+    //         flag = 1;
+    //         break;
+    //     }
+    // }
+
+    // if(flag){
+    //     printf("%s The string is not palindrom :", str);
+    // }
+    // else{
+    //     printf("%s The string is palindrom :", str);
+    // }
+
+    // ************* WAP in c to count the number of vowel in a string ****************
+
+    // char s[100];
+    // int i=0;
+    // int len, count = 0;
+
+    // printf("Enter a string :");
+    // gets(s);
+
+    // len=strlen(s);
+
+    // while(i<= len){
+    //     if(s[i]=='a' || s[i]=='e' || s[i]=='i' || s[i]=='o' || s[i]=='u' || s[i]=='A' || s[i]=='E' || s[i]=='I' || s[i]=='O' || s[i]=='U')
+    //     {
+    //         count++;
+    //     }
+    //     i++;
+    // }
+    // printf("%d", count);
+
+
+
+
     return 0;
 }
