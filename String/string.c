@@ -87,10 +87,55 @@ int main(){
 
     // **********manullay case convertion *********
 
-    char s[100];
-    int i;
-    printf("Enter a string : \n");
-    gets(s);
+    // char s[100];
+    // int i;
+    // printf("Enter a string : \n");
+    // gets(s);
+
+    // ********* concatinate **********
+
+    // char a[100], b[100];
+    // int l1, l2, i;
+
+    // printf("Enter the first string : \n");
+    // gets(a);
+    // printf("Enter the second string : \n");
+    // gets(b);
+
+    // strcat(a,b);
+    // printf("string : %s ", a);
+
+    // strcpy(b,a);
+    // printf("string : %s ", b);
+
+
+    // ********* compare 2 string *********
+
+    // char a[100], b[100];
+    // int l1, l2, i;
+
+    // printf("Enter the first string : \n");
+    // gets(a);
+    // printf("Enter the second string : \n");
+    // gets(b);
+
+    // if(strcmp(a,b)==0){
+    //     printf("Both string are Equal ");
+    // }
+    // else("Both String are not equal");
+
+    // ********** Reverse string **********
+
+    // char a[20];
+
+    // printf("Enter a string : ");
+    // gets(a);
+    // printf("%s \n", a);
+    // printf("After the reverse : %s", strrev(a));
+
+    
+
+    
 
     
 
