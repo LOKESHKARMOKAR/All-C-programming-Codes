@@ -78,6 +78,23 @@ int main(){
     // }
     // printf("%d", count);
 
+    //********** convert to string upper case to lower case **********
+
+    // char str[100];
+    // printf("Enter the string\n");
+    // gets(str);
+    // printf("upper case to lowercase convertion : %s", strupr(str));
+
+    // **********manullay case convertion *********
+
+    char s[100];
+    int i;
+    printf("Enter a string : \n");
+    gets(s);
+
+    
+
+
 
 
 
