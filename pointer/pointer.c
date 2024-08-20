@@ -10,13 +10,27 @@ int main(){
 // printf("Address of variable a is: %d\n", &a);
 // printf("value of pointer p : %d", p);
 
-int a =10, b=20;
-int *p, *q;
-p=&a;
-q=&b;
+// int a =10, b=20;
+// int *p, *q;
+// p=&a;
+// q=&b;
 
-printf("value of a %d\n", a);
-printf("value of a (Using pointer) %d\n", *p);
+// printf("value of a %d\n", a);
+// printf("value of a (Using pointer) %d\n", *p);
+
+// int a =10;
+// float b = 20.5;
+// float c = (float)a+b;
+// printf("%.1f", c);
+
+// int a=10;
+// float b=20.5;
+// void *p= &a;
+// void *q=&b;
+// printf("%d\n", *(int*)p);
+// printf("%.1f", *(float*)q);
+
+
 
 
 
