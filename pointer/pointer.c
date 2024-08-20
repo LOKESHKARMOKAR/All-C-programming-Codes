@@ -29,7 +29,10 @@ int main(){
 // void *q=&b;
 // printf("%d\n", *(int*)p);
 // printf("%.1f", *(float*)q);
-
+ int a = 10;
+ int b = 20;
+ int c = a+b;
+ printf("%d", c);
 
 
 
