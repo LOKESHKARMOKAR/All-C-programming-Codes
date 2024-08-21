@@ -32,7 +32,8 @@ int main(){
  int a = 10;
  int b = 20;
   int d = 30;
- int c = a+b+d;
+  int e = 40;
+ int c = a+b+d+e;
  printf("%d", c);
 
 
