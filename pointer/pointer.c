@@ -31,7 +31,8 @@ int main(){
 // printf("%.1f", *(float*)q);
  int a = 10;
  int b = 20;
- int c = a+b;
+  int d = 30;
+ int c = a+b+d;
  printf("%d", c);
 
 
