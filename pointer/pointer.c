@@ -29,12 +29,19 @@ int main(){
 // void *q=&b;
 // printf("%d\n", *(int*)p);
 // printf("%.1f", *(float*)q);
- int a = 10;
- int b = 20;
-  int d = 30;
-  int e = 40;
- int c = a+b+d+e;
- printf("%d", c);
+//  int a = 10;
+//  int b = 20;
+//   int d = 30;
+//   int e = 40;
+//  int c = a+b+d+e;
+//  printf("%d", c);
+
+// int a = 10;
+// int *ptr = (int*) malloc (sizeof(int));
+// *ptr = &a;
+// free(*ptr);
+// ptr = NULL;
+// printf("%d", ptr);
 
 
 
