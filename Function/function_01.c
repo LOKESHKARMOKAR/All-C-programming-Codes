@@ -1,23 +1,23 @@
 #include<stdio.h>
-void sum(){
-    int a, b, sum = 0;
-    printf("Enter two number :\n");
-    scanf("%d %d", &a, &b);
-    sum = a+b;
-    printf("Sum of two number is : %d", sum);
-}
+int sum(int, int);
 
-void diff(){
-    int a, b, sum = 0;
-    printf("Enter two number :\n");
-    scanf("%d %d", &a, &b);
-    sum = a-b;
-    printf("diff of two number is : %d", sum);
-}
 int main(){
-sum();
-printf("\n");
-diff();
+    int a=10,b=20;
+    int r;
+r = sum(10,20); // arguments
+
+printf("%d", r);
+
+
+
 
     return 0;
+}
+
+int sum(int x, int y) // parameter
+{ 
+    
+     
+     return (x+y);
+    
 }
