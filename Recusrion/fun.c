@@ -19,20 +19,21 @@
 //     return 0;
 // }
 
-#include<stdio.h>
-int facto(int x){
-    if(x==1){
-        return 1;
-    }else{
-       return x*facto(x-1);
-    }
-}
-int main(){
-int n, r;
-printf("Enter the value of n : \n");
-scanf("%d", &n);
-r = facto(n);
-printf("The Factorial value of %d is %d", n, r);
+// #include<stdio.h>
+// int facto(int x){
+//     if(x==1){
+//         return 1;
+//     }else{
+//        return x*facto(x-1);
+//     }
+// }
+// int main(){
+// int n, r;
+// printf("Enter the value of n : \n");
+// scanf("%d", &n);
+// r = facto(n);
+// printf("The Factorial value of %d is %d", n, r);
 
-    return 0;
-}
+//     return 0;
+// }
+
