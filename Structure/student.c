@@ -5,11 +5,12 @@
 
 #include <stdio.h>
 #include<string.h>
-// struct student
-//     {
-//         int rollNo;
-//         char name[30];
-//     };
+struct student
+    {
+        int rollNo;
+        char name[30];
+        int age;
+    };
 
 int main(){
 
@@ -33,6 +34,20 @@ int main(){
 // printf("Student Nase %s\n", s1.name);
 // printf("Student name %s\n", s2.name);
 // printf("Student name %s\n", s3.name);
+
+// struct  student s1;
+// printf("Enter the roll number :");
+// scanf("%d", &s1.rollNo);
+// fflush(stdin);
+// printf("Enter the Name :");
+// //scanf("%[^\n]s", &s1.name);
+// gets(s1.name);
+
+// printf("Enter the Age :");
+// scanf("%d", &s1.age);
+// printf("The roll number is :%d \n", s1.rollNo);
+// printf("The Name is :%s \n", s1.name);
+// printf("The Age is :%d \n", s1.age);
 
 
 
